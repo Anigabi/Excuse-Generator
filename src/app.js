@@ -9,16 +9,16 @@ window.onload = function() {
   //write your code here
 
 
-  const who = ["my boyfriend", "I", "my bestie", "my chicken"];
-  const act = ["fall", "eat", "wet"];
-  const when = ["before the class", "after the gym", "in the morning"];
-  const what = ["all the food", "my computer", "my transport pass"];
+  const WHO = ["My boyfriend", "I", "My bestie", "My chicken"];
+  const ACT = ["Fall", "Eat", "Wet"];
+  const WHEN = ["bBefore the class", "After the gym", "In the morning"];
+  const WHAT = ["all the food", "my computer", "my transport pass"];
 
   document.querySelector("#excuse").innerHTML = excuseGenerator(
-    who,
-    act,
-    what,
-    when
+    WHO,
+    ACT,
+    WHAT,
+    WHEN
   );
 };
 
